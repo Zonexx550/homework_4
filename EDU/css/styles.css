@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  margin-left: 106px;
+}
+
+.header-sec {
+  display: flex;
+}
+
+.header {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 97px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  color: #202020;
+  width: 507px;
+  height: 388px;
+  margin-bottom: 45px;
+}
+
+.learning-word {
+  color: #ef8354;
+}
+
+.img-header {
+  list-style: none;
+}
+
+.header-bottom {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  width: 697px;
+  height: 79px;
+}
+
+.learn-btn {
+  border-radius: 5px;
+  background: rgb(239, 131, 84);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  padding: 20px 35px 20px 35px;
+}
+
+.student-join {
+  color: rgba(32, 32, 32, 0.75);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.joined-students {
+  display: flex;
+  margin-top: 73px;
+}
+
+.links-sec {
+  display: flex;
+}
+
+.h3-section-links {
+  color: rgb(32, 32, 32);
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: 0%;
+  gap: 12;
+  text-align: left;
+  text-transform: capitalize;
+  width: 414px;
+}
+
+.h3-link-sec {
+  margin-right: 125px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  list-style: none;
+  gap: 75px;
+}
+
+.second-sec {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.h4-second-sec {
+  color: rgb(32, 32, 32);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  padding: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.p-second-sec {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.h3-section3 {
+  color: rgb(32, 32, 32);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.ul-sec3 {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.name {
+  color: rgb(32, 32, 32);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 30px 190px 0px 10px;
+}
+
+.work {
+  color: rgb(32, 32, 32);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin: 0px 190px 0px 11px;
+}
+
+.description {
+  color: rgb(32, 32, 32);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin: 17px 11px 28px 11px;
+}
+
+.frame-sec3 {
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  background: rgb(250, 250, 250);
+  width: 350px;
+  height: 538px;
+  margin-left: 40px;
+}
+
+.h3-sec4 {
+  color: rgb(32, 32, 32);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+h2 {
+  color: rgb(210, 82, 26);
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.last-sec {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+}
+
+.h3-img-last-sec h3 {
+  width: 664px;
+  margin-bottom: 80px;
+}
+
+.text-last-sec h2 {
+  color: rgb(210, 82, 26);
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 61px;
+  letter-spacing: 0%;
+  width: 833px;
+}
+
+.text-last-sec p {
+  color: rgb(32, 32, 32);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
